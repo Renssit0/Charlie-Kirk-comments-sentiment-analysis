@@ -11,7 +11,7 @@ This project aims to uncover the answers to these questions by contrasting reddi
 As previously stated, this dataset has been scrapped of Reddit using its API. The dataset can be found in [Hugging Face](https://huggingface.co/datasets/Renssit0/Charlie-Kirk-comments) and the code used can be found at "src/reddit_scrapper.py".
 
 ## License
-This repository (code, documentation, and instructions) is licensed under:  
+This repository is licensed under:  
 - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
 
 The dataset mentioned in this repo is licensed separately:  
