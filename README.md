@@ -14,5 +14,5 @@ As previously stated, this dataset has been scrapped of Reddit using its API. Th
 This repository (code, documentation, and instructions) is licensed under:  
 - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
 
-Datasets included in this tutorial are licensed separately:  
+The dataset mentioned in this repo is licensed separately:  
 - [Reddit API terms](https://redditinc.com/policies/data-api-terms)
