@@ -10,6 +10,11 @@ This project aims to uncover the answers to these questions by contrasting reddi
 
 As previously stated, this dataset has been scrapped of Reddit using its API. The dataset can be found in [Hugging Face](https://huggingface.co/datasets/Renssit0/Charlie-Kirk-comments) and the code used can be found at "src/reddit_scrapper.py".
 
+
+## Process
+
+All notebooks are in src. The first notebook used was reddit_scrapper.py (self-explanatory). Then we cleaned it up further in data_cleaning.ipynb and finally computed the metrics including sentiment analysis in metrics.ipynb. 
+
 ## License
 This repository is licensed under:  
 - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
