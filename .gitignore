@@ -208,4 +208,5 @@ __marimo__/
 
 # dataset can be downloaded from hugging face
 /data/raw/*
+!data/raw/.gitkeep
 
