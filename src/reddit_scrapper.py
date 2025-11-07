@@ -426,7 +426,7 @@ if _name_ == "_main_":
     datos_unicos = datos_unicos.sort_values(['año', 'mes', 'dia']).reset_index(drop=True)
 
     # Guardar resultados
-    nombre_archivo = "comentarios_charlie_kirk_balanceado.csv"
+    nombre_archivo = "../data/raw/comentarios_charlie_kirk_balanceado.csv"
     datos_unicos.to_csv(nombre_archivo, index=False, encoding="utf-8")
 
     # Generar reporte final
