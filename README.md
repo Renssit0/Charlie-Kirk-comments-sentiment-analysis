@@ -13,7 +13,7 @@ As previously stated, this dataset has been scrapped of Reddit using its API. Th
 
 ## Process
 
-All code is located in "/src" and has a corresponding document in "/doc" that explains it in Spanish in natural language, except for the scraping process, which is explained through comments in the .py file.
+All code is located in "/src" and has a corresponding document in "/doc" that explains it in Spanish in natural language.
 
 In order to reproduce the result, you may run the "/src/1-reddit_scrapper.py" to scrap results on your own or take our scrapped dataset from hugging face and download it into the data/raw directory, at which point you can run each notebook in "/src" in the following order: "2.1-data_cleaning.ipynb", "2.2-metrics.ipynb" and "3-visualization/visualization.ipynb".
 
