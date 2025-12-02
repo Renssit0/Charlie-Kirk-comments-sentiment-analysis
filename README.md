@@ -13,7 +13,14 @@ As previously stated, this dataset has been scrapped of Reddit using its API. Th
 
 ## Process
 
-All notebooks are in src. The first notebook used was reddit_scrapper.py (self-explanatory). Then we cleaned it up further in data_cleaning.ipynb and finally computed the metrics including sentiment analysis in metrics.ipynb. 
+All code is located in "/src" and has a corresponding document in "/doc" that explains it in Spanish in natural language, except for the scraping process, which is explained through comments in the .py file.
+
+In order to reproduce the result, you may run the "/src/1-reddit_scrapper.py" to scrap results on your own or take our scrapped dataset from hugging face and download it into the data/raw directory, at which point you can run each notebook in "/src" in the following order: "2.1-data_cleaning.ipynb", "2.2-metrics.ipynb" and "3-visualization/visualization.ipynb".
+
+The dataset from raw to fully processed goes through these filenames:
+> comentarios_charlie_kirk_balanceado.csv -> charlie_kirk_comments_cleaned.csv -> charlie_kirk_comments_processed.csv
+
+Finally, in visualization, we draw conclusions in the last notebook.
 
 ## License
 This repository is licensed under:  
